@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5f5f;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .product {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(./img/background.png);
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    border: solid #ff5f5f;
+  }
+
+  .product:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: solid red
+    
+  }
+  
+  .product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: white;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff5f5f;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #e54747; 
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-icon {
+    margin-left: auto;
+  }
+  
+  .cart-icon a:hover {
+    color: black; /* Mudança de cor do ícone do carrinho para preto no hover */
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      float: none;
+      margin-bottom: 10px; 
+    }
+  
+    .cart-icon {
+      margin-left: 0;
+    }
+  }
+  
