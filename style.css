@@ -121,7 +121,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -215,7 +215,9 @@ footer {
   }
 
   footer {
-    position: static;
-    margin-top: auto;
+    position: fixed; /* Alterado de absolute para fixed */
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 }
