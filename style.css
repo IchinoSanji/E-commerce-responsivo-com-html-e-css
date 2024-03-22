@@ -1,3 +1,8 @@
+*{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -120,7 +125,7 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 40px 15px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -172,6 +177,7 @@ footer {
 
   .container {
     padding: 10px;
+    position: relative;
   }
 
   .product {
@@ -215,7 +221,7 @@ footer {
   }
 
   footer {
-    position: fixed; /* Alterado de absolute para fixed */
+    position: fixed; 
     left: 0;
     right: 0;
     bottom: 0;
