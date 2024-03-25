@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minha Loja</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="nav-container">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Mangás</a></li>
-            <li><a href="#">Lançamentos</a></li>
-          </ul>
-          <div class="cart-icon">
-            <a href="#" style="color: white"
-              ><i class="fas fa-shopping-cart fa-lg"></i
-            ></a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Loja</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Mangás</a></li>
+          <li><a href="#">Lançamentos</a></li>
+        </ul>
+        <div class="search-bar">
+          <form action="#" method="GET">
+            <input type="text" placeholder="Pesquisar..." name="search" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
         </div>
-      </nav>
-    </header>
-    <section>
-      <div class="container">
-        <div class="product">
-          <img src="./img/foto 1.jpg" alt="Mangá 1" />
-          <h2>Jujutsu kaisen Volume 1</h2>
-          <p>Autor: Gege Akutami</p>
-          <p>R$ 19,99</p>
-          <a href="#" class="btn">Adicionar ao Carrinho</a>
-        </div>
-
-        <div class="product">
-          <img src="./img/foto 2.jpg" alt="Mangá 2" />
-          <h2>One Piece Volume 2</h2>
-          <p>Autor: Eiichiro Oda</p>
-          <p>R$ 24,99</p>
-          <a href="#" class="btn">Adicionar ao Carrinho</a>
-        </div>
-
-        <div class="product">
-          <img src="./img/foto 3.jpg" alt="Mangá 3" />
-          <h2>Solo Leveling Volume 1</h2>
-          <p>Autor: Chu Chong</p>
-          <p>R$ 29,99</p>
-          <a href="#" class="btn">Adicionar ao Carrinho</a>
-        </div>
-
-        <div class="product">
-          <img src="./img/foto 4.jpg" alt="Mangá 4" />
-          <h2>Kimetsu No Yaiba Volume 19</h2>
-          <p>Autor: Koyoharu Gotoyge</p>
-          <p>R$ 14,99</p>
-          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        
+        <div class="cart-icon">
+          <a href="#" style="color: white"><i class="fas fa-shopping-cart fa-lg"></i></a>
         </div>
       </div>
-    </section>
-    <footer>
-      <p>&copy; 2024 MangáMania</p>
-    </footer>
-  </body>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <div class="product">
+        <img src="./img/foto 1.jpg" alt="Mangá 4" />
+        <h2>Jujutsu Kaisen Volume 2</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('Jujutsu Kaisen Volume 2 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+
+      <div class="product">
+        <img src="./img/foto 2.jpg" alt="Mangá 4" />
+        <h2>One Piece Volume 2</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('One Piece Volume 2 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+
+      <div class="product">
+        <img src="./img/foto 3.jpg" alt="Mangá 4" />
+        <h2>Solo Leveling Volume 1</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('Solo Leveling Volume 1 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+
+      <div class="product">
+        <img src="./img/foto 4.jpg" alt="Mangá 4" />
+        <h2>Kimetsu No Yaiba Volume 19</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('Kimetsu No Yaiba Volume 19 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+      <div class="product">
+        <img src="./img/imagem 5.png" alt="Mangá 4" />
+        <h2>One Punch Man Volume 25</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('One Punch Man Volume 25 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+      <div class="product">
+        <img src="./img/91xUwI2UEVL.jpg" alt="Mangá 4" />
+        <h2>Naruto Volume 1</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('Naruto Volume 1 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+      <div class="product">
+        <img src="./img/foto 6.jpg" alt="Mangá 4" />
+        <h2>Bleach Volume 49</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('Bleach Volume 49 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+      <div class="product">
+        <img src="./img/foto 7.jpg" alt="Mangá 4" />
+        <h2>Dragon Ball Super Volume 1</h2>
+        <p>Autor: Koyoharu Gotoyge</p>
+        <p>R$ 14,99</p>
+        <a href="#" class="btn" onclick="alert('Dragon Ball Super Volume 1 adicionado ao carrinho')">Adicionar ao Carrinho</a>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <footer id="footer">
+    <p>&copy; 2024 MangáMania</p>
+  </footer>
+ 
+  <script>
+    $(document).ready(function(){
+  $(window).scroll(function(){
+    var windowHeight = $(window).height();
+    var footerHeight = $('#footer').outerHeight();
+    var bodyHeight = $('body').height();
+    var scrollTop = $(window).scrollTop();
+
+    if (windowHeight + scrollTop >= bodyHeight - footerHeight) {
+      $('#footer').css({
+        'position': 'absolute',
+        'bottom': '0'
+      });
+    } else {
+      $('#footer').css({
+        'position': 'fixed',
+        'bottom': '0'
+      });
+    }
+  });
+});
+  </script>
+</body>
 </html>
